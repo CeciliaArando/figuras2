@@ -17,4 +17,8 @@ public class Rectangulo {
 	public double perimetro() {
 		return this.ancho * 2 + this.alto * 2;
 	}
+	
+	public double area() {
+		return this.ancho * this.alto;
+	}
 }
